@@ -1,0 +1,28 @@
+{
+  "name": "js-basics-arithmetic-lab",
+  "version": "0.1.0",
+  "description": "Lab on JavaScript numbers and arithmetic in Flatiron School's Learn.co curriculum.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/learn-co-curriculum/js-basics-arithmetic-lab.git"
+  },
+  "keywords": [
+    "javascript",
+    "learn.co",
+    "flatiron school",
+    "arithmetic",
+    "math",
+    "number",
+    "operators"
+  ],
+  "author": "@gj",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/js-basics-arithmetic-lab/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/js-basics-arithmetic-lab#readme",
+  "devDependencies": {
+    "learn-browser": "^0.1.3"
+  }
+}
