@@ -1,4 +1,4 @@
-# JavaScript Arithmetic Lab
+# Arithmetic Lab
 
 ## Overview
 This lab introduces a number of the common operators and objects you'll use to perform arithmetic operations in JavaScript.
@@ -315,3 +315,5 @@ There are three challenges we need you to solve. Code your solution in `index.js
   + [`Number`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
   + [`Math`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 - [2ality — How numbers are encoded in JavaScript](http://2ality.com/2012/04/number-encoding.html)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/js-basics-arithmetic-lab'>Arithmetic Lab</a> on Learn.co and start learning to code for free.</p>
