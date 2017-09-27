@@ -11,7 +11,3 @@ const spyOnNumberIsInteger = sinon.stub(Number, 'isInteger').returns(currentAgeI
 const randNum = Math.random();
 
 const spyOnMathRandom = sinon.stub(Math, 'random').returns(randNum);
-
-const flooredNum = Math.floor(randNum);
-
-const spyOnMathFloor = sinon.stub(Math, 'floor').returns(flooredNum);
