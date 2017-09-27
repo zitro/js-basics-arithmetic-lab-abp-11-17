@@ -34,13 +34,9 @@ describe('index.js', function () {
 
   describe('randomInteger', function () {
     it("contains the value of 'randomNumber' rounded down to the nearest integer", function () {
-      expect(Number.isInteger(randomInteger)).to.be.true;
+      const flooredRandomInteger = Math.floor(randomNumber);
 
-      expect(randomInteger).to.be.at.least(0).and.at.most(19);
-    });
-
-    it("invokes 'Math.floor()'", function () {
-      expect(spyOnMathFloor.calledOnce).to.be.true;
+      expect(randomInteger).to.eql(flooredRandomInteger);
     });
   });
 
