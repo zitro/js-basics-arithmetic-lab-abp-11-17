@@ -11,4 +11,4 @@ let newID = oldID + (10 **9 );
 let ageIsValid = Number.isInteger(currentAge);
 let randomNumber = Math.floor(Math.random() * 20) + 0;
 let randomInteger = Math.floor(randomNumber);
-let randomUserID = newID + randomInteger;
+let randomUserID = NUmber.parseInt(randomInteger);
