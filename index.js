@@ -11,4 +11,9 @@ let newID = oldID + (10 **9 );
 let ageIsValid = Number.isInteger(currentAge);
 let randomNumber = Math.floor(Math.random() * 20) + 0;
 let randomInteger = Math.floor(randomNumber);
-let randomUserID = Number.parseInt(randomInteger, 10);
+
+let  min = Math.ceil(1000000001);
+let  max = Math.floor(1000000020);
+let randomUserID = Math.floor(Math.random() * (max - min)) + min; 
+  //The maximum is exclusive and the minimum is inclusive
+
