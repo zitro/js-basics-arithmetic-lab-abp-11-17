@@ -13,6 +13,7 @@ let randomNumber = Math.floor(Math.random() * 10) + 1;
 let randomInteger = Math.floor(randomNumber);
 
 let  min = Math.ceil(1000000001);
-let  max = Math.floor(1000000020);
+//let  max = Math.floor(1000000020);
+
 let randomUserID = Math.floor(Math.random() * (max - min)) + min;
   //The maximum is exclusive and the minimum is inclusive
